@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfoli☆</title>
+</head>
+
+<body>
+<!-- Start-->
+    <div class="loading"></div>
+
+
+<!-- Taskbar-->
+ <!-- Bar-->
+    <div id="taskbar-bar" class="display-none">
+        <img src="bar.png" class="bar">
+    </div>
+ <!-- DateTIme-->
+    <div id="date-time" class="display-none">
+        <p id="current-date-time"></p>
+    </div>
+
+
+<!-- Intro-->
+<!-- Guide-->
+    <div id="guide" class="display-none">
+        <div id="guide-close">X</div>
+        <img src="guide.png" class="guide-image">
+    </div>
+
+<!-- Welcome-->
+    <div id="welcome" class="display-none">
+        <div id="welcome-close">x</div>
+        <img src="welcome.gif" class="welcome-image">
+    </div>
+
+<!-- Apple-->
+    <div id="apple" class="display-none">
+        <div id="apple-close">X</div>
+        <img src="apple.png" class="apple-image">
+    </div>
+
+
+<!-- Buttons-->
+<!-- AbtMe-->
+<button id="abtme-button" class="display-none" ondblclick="abtopen()">
+    <img src="abtmebutton.png" class="abtme-button-image">
+    <p class="abtme-button-text">About Me</p>
+</button>
+<div id="abtme" class="display-none">
+        <div id="abtme-close">X</div>
+        <img src="abtme.png" class="abtme-image">
+</div>
+
+ <!-- Leadership-->
+<button id="leadership-button" class="display-none" ondblclick="leaopen()">
+    <img src="leadershipbutton.png" class="leadership-button-image">
+    <p class="leadership-button-text">Leadership</p>
+</button>
+<div id="leadership-frame" class="display-none">
+    <div id="leadership-close">X</div>
+    <img src="leadershipframe.png" class="leadership-frame-image">
+    <div id="leadership" class="display-none">
+        <img src="leadership.png" class="leadership-image">
+</div>
+</div>
+
+
+ <!-- Achievements-->
+<button id="achievements-button" class="display-none" ondblclick="achopen()">
+    <img src="achievementsbutton.png" class="achievements-button-image">
+    <p class="achievements-button-text">Achievements</p>
+</button>
+ 
+ <!-- Service-->
+ <button id="service-button" class="display-none" ondblclick="seropen()">
+    <img src="servicebutton.png" class="service-button-image">
+    <p class="service-button-text">Service</p>
+</button>
+
+     <script src="index.js"></script>
+</body>
+</html>
